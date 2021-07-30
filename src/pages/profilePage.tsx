@@ -1,4 +1,4 @@
-
+import BurgerIcon from "../components/BurgerIcon.component";
 
 function Profile() {
     function myFunction(){
@@ -8,14 +8,7 @@ function Profile() {
         <div className="profilePage">
             <div className="outer">
         <div className="header-holder">
-            <div className="menu-btn">
-                <div className="navi-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+            <BurgerIcon />
             <div className="custom-container">
                 <div className="navigation-holder">
                     <div className="logo">

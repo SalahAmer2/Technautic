@@ -1,5 +1,5 @@
 
-//import './dash-css/all.css';
+import BurgerIcon from "../components/BurgerIcon.component";
 
 function Market() {
     function myFunction(){
@@ -11,14 +11,7 @@ function Market() {
       
       <div className="outer">
         <div className="header-holder">
-            <div className="menu-btn">
-                <div className="navi-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+            <BurgerIcon />
             <div className="custom-container">
 
                 <div className="navigation-holder">

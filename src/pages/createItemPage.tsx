@@ -1,18 +1,11 @@
-
+import BurgerIcon from "../components/BurgerIcon.component";
 
 function Createitem() {
     return (
         <div className="createItemPage">
 
 <div className="header-holder">
-        <div className="menu-btn">
-            <div className="navi-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+        <BurgerIcon />
         <div className="chain-container">
             <div className="logo">
                 <a href="index.html" className="transparent-logo"><img src="assets/images/opt-logo3.png" alt=""/></a>

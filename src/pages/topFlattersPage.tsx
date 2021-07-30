@@ -1,4 +1,4 @@
-
+import BurgerIcon from "../components/BurgerIcon.component";
 
 function TopFlatters() {
     function myFunction(){
@@ -7,10 +7,7 @@ function TopFlatters() {
     return (
         <div className="topFlattersPage">
      <div className="header-holder">
-	<div className="menu-btn">
-		<div className="navi-icon"> <span></span>  <span></span>  <span></span>  <span></span>
-		</div>
-	</div>
+	<BurgerIcon />
 	<div className="chain-container">
 		<div className="logo">
 			<a href="index.html" className="transparent-logo">
