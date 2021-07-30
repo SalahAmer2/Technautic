@@ -1,4 +1,4 @@
-import BurgerIcon from "../components/BurgerIcon.component";
+import BurgerIcon from "../BurgerIcon.component";
 
 function TopFlatters() {
     function myFunction(){
