@@ -5,7 +5,7 @@ import ItemCard from "../components/ItemCard.component";
 
 function Market() {
 
-    const page = "Market" 
+    const page = "Market";
 
     return (   
         <div className="marketPage">

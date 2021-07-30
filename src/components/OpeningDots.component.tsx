@@ -1,6 +1,6 @@
 import React from 'react'
 
-const OpeningDots = (page) => {
+const OpeningDots = ({page}) => {
     function myProfileFunction() {
         console.log("profile func");
     }

@@ -1,9 +1,9 @@
 import React from 'react'
 import OpeningDots from "./OpeningDots.component";
 
-const ItemCard = (page) => {
+const ItemCard = ({page}) => {
     return (
-        <div className="col-md-4 nopadding">
+        <div className={`${(page === "Profile") ? "col-md-4" : "col-md-3"} nopadding`}>
             <div className="item-card">
                 <ul className="artists">
                     <li>

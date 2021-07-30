@@ -8,7 +8,7 @@ import "../components/main.css";
 
 function Profile() {
 
-  const page = "Profile"
+  const page = "Profile";
 
   return (
     <div className="profilePage">
