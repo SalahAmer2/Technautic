@@ -1,4 +1,5 @@
 import BurgerIcon from "../components/BurgerIcon.component";
+import MarketLogo from "../components/MarketLogo.component";
 
 function Createsingle() {
     return (
@@ -7,10 +8,7 @@ function Createsingle() {
 <div className="header-holder">
         <BurgerIcon />
         <div className="chain-container">
-            <div className="logo">
-                <a href="index.html" className="transparent-logo"><img src="assets/images/opt-logo3.png" alt=""/></a>
-                <a href="index.html" className="white-logo"><img src="assets/images/opt-logo3.png" alt=""/></a>
-            </div>
+             <MarketLogo />
             <div className="navigation-holder">
                 <ul className="mobile-nav">
                     <div className="logo-mobile">

@@ -1,4 +1,5 @@
 import BurgerIcon from "../BurgerIcon.component";
+import NavBar from "../NavBar.component";
 
 function Detail() {
   return (
@@ -8,53 +9,7 @@ function Detail() {
           <BurgerIcon />
           <div className="custom-container">
             <div className="navigation">
-              <div className="navigation-holder">
-                <ul className="mobile-nav">
-                  <div className="logo-mobile">
-                    <a href="markeet.html" className="white-logo">
-                      <img src="assets/images/profile-icon-img.png" alt="" />
-                    </a>
-                    <p>owner</p>
-                    <span>address goes here</span>
-                  </div>
-                  <li>
-                    <a href="#">Address</a>
-                  </li>
-                  <li>
-                    <a href="profile-page.html">My Profile</a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Explore
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Activity
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Flat Token
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Top Flatters
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Subscribe
-                    </a>
-                  </li>
-                  <li>
-                    <a href="markeet.html" className="#">
-                      Connect Wallet
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <NavBar />
             </div>
           </div>
         </div>
