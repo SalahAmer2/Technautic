@@ -6,7 +6,7 @@ const TopSellers = () => {
      
      <div className="header-holder">
 	<div className="menu-btn">
-		<div className="navi-icon">
+		<div className="navi-icon"> <span></span>  <span></span>  <span></span>  <span></span>
 		</div>
 	</div>
 	<div className="chain-container">
