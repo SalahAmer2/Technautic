@@ -1,6 +1,7 @@
 import BurgerIcon from "../BurgerIcon.component";
 import NavBar from "../NavBar.component";
 import { Link } from "react-router-dom";
+import './DetailPage.styles.css'
 
 function Detail() {
   return (

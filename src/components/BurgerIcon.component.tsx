@@ -1,4 +1,5 @@
 import React from 'react'
+import './BurgerIcon.styles.css'
 
 const BurgerIcon = () => {
     return (

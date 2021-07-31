@@ -1,5 +1,6 @@
 import React from 'react'
 import OpeningDots from "./OpeningDots.component";
+import './ItemCard.styles.css'
 
 const ItemCard = ({page}) => {
     return (

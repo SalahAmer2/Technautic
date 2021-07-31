@@ -1,0 +1,66 @@
+.navigation-holder {
+    top: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.navigation-holder {
+    position: fixed;
+    top: 0;
+    left: -10px;
+    width: 240px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    margin-left: -250px;
+    background: #000;
+    z-index: 9;
+}
+
+@media only screen and (min-width: 1264px) {
+    .navigation-holder {
+        padding: 20px 0 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
+        margin-left: 0;
+    }
+}
+
+.mobile-nav li,
+.mobile-nav-to-link-style {
+    border-radius: 5px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    color: #37afe7;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    text-align: center;
+    display: block;
+}
+
+.logo-mobile {
+    text-align: center !important;
+}
+
+.logo-mobile p {
+    font-size: 14px;
+}
+
+.logo-mobile p,
+.logo-mobile span {
+    text-transform: uppercase;
+    font-family: "OpenSans-Regular";
+    font-weight: 400;
+    color: grey;
+}
+
+.logo-mobile span {
+    font-size: 12px;
+}

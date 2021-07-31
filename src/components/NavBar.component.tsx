@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './NavBar.styles.css'
 
 const NavBar = () => {
     return (
@@ -8,7 +9,9 @@ const NavBar = () => {
             <ul className="mobile-nav">
                 <div className="logo-mobile">
                     
-                    <Link to="/profile" className="white-logo"><img src="assets/images/profile-icon-img.png" alt=""/></Link>
+                    <span className="mobile-nav-to-link-style">
+                        <Link to="/profile" className="white-logo"><img src="assets/images/profile-icon-img.png" alt=""/></Link>
+                    </span>
                     <p>owner</p>
                     <span>address goes here</span>
                 </div>

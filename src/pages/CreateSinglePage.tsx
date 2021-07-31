@@ -1,5 +1,6 @@
 import BurgerIcon from "../components/BurgerIcon.component";
 import MarketLogo from "../components/MarketLogo.component";
+import './CreateSinglePage.styles.css'
 
 function Createsingle() {
     return (
