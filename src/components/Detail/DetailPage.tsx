@@ -40,9 +40,9 @@ function Detail() {
                         <img
                           src="assets/images/heart-icon.jpg"
                           alt=""
-                          className="nft-likes-icon"
+                          className="nft-likes-icon cursor-pointer"
                         />
-                        <img src="assets/images/heart-icoen.jpg" alt="" />
+                        <img src="assets/images/heart-icoen.jpg" alt="" className='cursor-pointer'/>
                       </div>
                     </div>
 

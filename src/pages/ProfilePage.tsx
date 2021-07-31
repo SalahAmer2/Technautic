@@ -5,6 +5,7 @@ import MarketProfileHeader from "../components/MarketProfileHeader.component";
 import ProfileCard from "../components/ProfileCard.component";
 import ItemCard from "../components/ItemCard.component";
 import "../components/main.css";
+import './ProfilePage.styles.css'
 
 function Profile() {
 

@@ -2,6 +2,7 @@ import BurgerIcon from "../components/BurgerIcon.component";
 import MarketLogo from "../components/MarketLogo.component";
 import NavBar from "../components/NavBar.component";
 import ItemCard from "../components/ItemCard.component";
+import './MarketPage.styles.css'
 
 function Market() {
 
