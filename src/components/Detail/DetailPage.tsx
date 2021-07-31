@@ -133,7 +133,7 @@ function Detail() {
                       <div className="panel-heading">
                         <h4 className="panel-title">
                           <div
-                            className="panel-title-img "
+                            className="panel-title-img"
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
