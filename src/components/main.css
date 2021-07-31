@@ -41,24 +41,6 @@ a:visited {
   color: inherit;
 }
 
-.clearfix:after {
-  content: "&nbsp;";
-  font-size: 0;
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.clearfix {
-  display: inline-block;
-  display: block;
-}
-
-* html .clearfix {
-  height: 1%;
-}
-
 .clear {
   clear: both;
 }
@@ -119,12 +101,6 @@ ul li {
   padding: 0 15px;
 }
 
-.chain-container {
-  max-width: 1210px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -180,56 +156,12 @@ ul {
   list-style-type: none;
 }
 
-input {
-  outline: none;
-  border: none;
-}
-
-input[type="number"] {
-  appearance: none;
-  -webkit-appearance: none;
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-
 textarea {
   outline: none;
   border: none;
 }
 
-input:focus,
-textarea:focus {
-  border-color: transparent !important;
-}
 
-input::-webkit-input-placeholder {
-  color: #1b3815;
-}
-
-input:-moz-placeholder,
-input::-moz-placeholder {
-  color: #1b3815;
-}
-
-input:-ms-input-placeholder {
-  color: #1b3815;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #1b3815;
-}
-
-textarea:-moz-placeholder,
-textarea::-moz-placeholder {
-  color: #1b3815;
-}
-
-textarea:-ms-input-placeholder {
-  color: #1b3815;
-}
 
 button {
   outline: none !important;
@@ -398,9 +330,6 @@ iframe {
   background-color: #1b3815;
 }
 
-.validate-input {
-  position: relative;
-}
 
 .alert-validate:before {
   content: attr(data-validate);
@@ -848,49 +777,6 @@ iframe {
   top: 10px;
   left: 0;
   width: 100%;
-}
-
-.logo {
-  width: 257px;
-  float: left;
-}
-
-.logo img {
-  margin-left: 40px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .logo img {
-    margin-left: 0;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .logo {
-    width: 240px;
-    margin: 10px 0;
-  }
-}
-
-@media only screen and (min-width: 1264px) {
-  .logo {
-    margin: 15px 0 10px;
-    width: 254px;
-  }
-}
-
-.logo a.transparent-logo {
-  display: block !important;
-}
-
-.logo a.white-logo {
-  display: none !important;
-}
-
-@media only screen and (min-width: 1264px) {
-  .logo {
-    margin: 15px 0 15px 23%;
-  }
 }
 
 .navigation-holder {
@@ -1641,16 +1527,6 @@ ul.navigation li a img {
   background: red;
 }
 
-.profile-header {
-  background: url(../pages/assets/images/profile-header-bg.2aa21cd1.png);
-  background-position: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 40px;
-  text-align: right;
-  padding: 80px 20px 90px;
-}
-
 .profile-header a {
   text-align: center;
   display: block;
@@ -1686,12 +1562,6 @@ ul.navigation li a img {
   position: relative;
 }
 
-input,
-section {
-  clear: both;
-  padding-top: 10px;
-  display: none;
-}
 
 label {
   font-weight: 700;
@@ -1873,26 +1743,7 @@ label .fa {
   padding-bottom: 20px;
 }
 
-input[type="text"] {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px solid #37afe7;
-  border-radius: 4px;
-  font-size: 16px;
-  height: 55px;
-  color: #000 !important;
-  background-color: #fff;
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-}
 
-input[type="text"]:focus {
-  outline: none !important;
-  color: #000 !important;
-  width: 100%;
-}
 
 .has-search {
   position: relative;
@@ -4243,52 +4094,7 @@ li .active a {
   }
 }
 
-.form-control {
-  position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 40px;
-  border-radius: 5px;
-  color: #fff;
-}
 
-.form-control:focus {
-  outline: none;
-  background: #fff;
-  color: orange;
-}
-
-.input-group > .custom-select:not(:last-child),
-.input-group > .form-control:not(:last-child) {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-
-.input-group-btn {
-  position: absolute;
-  right: 4px;
-  top: 3px;
-  background: #feaa04;
-  background: linear-gradient(
-    180deg,
-    #feaa04 0,
-    #f9a00c 13%,
-    #f39318 26%,
-    #d35152 76%,
-    #c93b65
-  );
-  color: #fff !important;
-  border-radius: 50px;
-  padding: 9px 15px;
-  transition: all 0.5s ease-in-out;
-  z-index: 999;
-}
-
-.input-group-btn:focus {
-  outline: none;
-  background-color: #fff !important;
-  transition: all 0.5s ease-in-out;
-}
 
 .btn-theme {
   border-radius: 50px;

@@ -1,0 +1,164 @@
+.createSinglePage {
+  width: 100%;
+}
+.single-create-outer {
+  padding-top: 160px;
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+.single-create-outer .create-single-headings h2 {
+  font-family: "Segoe UI";
+  font-size: 38px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #37afe7;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.file-uploader-outer {
+  width: 681px;
+  padding: 24px;
+  height: 195px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 3vh;
+}
+.custom-file-input {
+  height: 50px;
+}
+.custom-file-input::placeholder {
+  color: black;
+}
+.something-unknown {
+}
+.form-control {
+  position: relative;
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  padding-left: 40px;
+  border-radius: 5px;
+  color: #fff;
+}
+.form-control:focus {
+  outline: none;
+  background: #fff;
+  color: orange;
+}
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #37afe7;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 55px;
+  color: #000 !important;
+  background-color: #fff;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+.input-group-btn {
+  position: absolute;
+  right: 4px;
+  top: 3px;
+  background: #feaa04;
+  background: linear-gradient(
+    180deg,
+    #feaa04 0,
+    #f9a00c 13%,
+    #f39318 26%,
+    #d35152 76%,
+    #c93b65
+  );
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 9px 15px;
+  transition: all 0.5s ease-in-out;
+  z-index: 999;
+}
+.form-group {
+  margin-top: 5vh;
+}
+.custom-file-input {
+}
+.label-choose-file {
+  width: fit-content;
+  color: black;
+  font-weight: normal;
+  /* height: 50px !important; */
+  /* line-height: 50px; */
+  position: relative;
+  padding: 13px 15px;
+  left: 545px;
+  margin-top: -50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.collectible-preview-profile-holder {
+  width: 438px;
+  border: 1px solid #37afe7;
+  padding: 20px 15px 15px;
+  border-radius: 5px;
+  text-align: center;
+  height: 521px;
+}
+.collectible-preview-profile-holder img {
+  width: 406px;
+  height: 326px;
+}
+.collectible-preview-profile-holder span {
+  display: block;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 23px;
+}
+.collectible-preview-profile-holder .btn-profile-price {
+  border: 1px solid #39f;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  color: #39f;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.collectible-preview-profile-holder .collectible-price p {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  color: #000;
+}
+.collectibel-clear-all {
+  font-family: Ubuntu-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.cardname-price {
+  padding: 0 20px;
+  display: flex;
+  margin-top: 23px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.connect-acount-holder a {
+  display: block;
+  text-align: center;
+  width: 125px;
+  height: 55px;
+  margin-top: 95px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  background: #37afe7;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
