@@ -1,6 +1,14 @@
 jQuery(document).ready(function ($) {
 
-
+    $(".toggleCollapseOne").click(function () {
+        $("#collapseOne").slideToggle();
+    });
+    $(".toggleCollapseTwo").click(function () {
+        $("#collapseTwo").slideToggle();
+    });
+    $(".toggleCollapseThree").click(function () {
+        $("#collapseThree").slideToggle();
+    });
 
     // our work slider //
     jQuery(".latest-news").owlCarousel({

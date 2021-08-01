@@ -105,7 +105,7 @@ function Detail() {
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
-                            <a href="#collapseOne">
+                            <span className="toggleCollapseOne">
                             <img src="assets/images/panel-img-con.png" alt="" />
                             <div className="panel-title-detail">
                               <p>Owners</p>
@@ -114,7 +114,7 @@ function Detail() {
                                 <img src="assets/images/copy.png" alt="" />
                               </span>
                             </div>
-                            </a>
+                            </span>
                           </div>
                         </h4>
                       </div>
@@ -137,7 +137,7 @@ function Detail() {
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
-                            <a href="#collapseTwo">
+                            <span className="toggleCollapseTwo">
                               <img
                                 src="assets/images/top-sellers-img-thir.png"
                                 alt=""
@@ -149,7 +149,7 @@ function Detail() {
                                   <img src="assets/images/copy.png" alt="" />
                                 </span>
                               </div>
-                            </a>
+                            </span>
                           </div>
                         </h4>
                       </div>
@@ -169,7 +169,7 @@ function Detail() {
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
-                            <a href="#collapseThree">
+                            <span className="toggleCollapseThree">
                               <img src="assets/images/panel-img-con.png" alt="" />
                               <div className="panel-title-detail">
                                 <p>Owners</p>
@@ -178,7 +178,7 @@ function Detail() {
                                   <img src="assets/images/copy.png" alt="" />
                                 </span>
                               </div>
-                            </a>
+                            </span>
                           </div>
                         </h4>
                       </div>
