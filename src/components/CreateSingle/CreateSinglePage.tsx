@@ -1,56 +1,50 @@
 import NavBarFlatItems from "../NavBarFlatItems/NavBarFlatItems";
 import "./CreateSingle.css";
-
+import { ReactComponent as UploadICon } from "../../pages/assets/icons/upload.svg";
+import Footer from "../Footer/Footer";
 function Createsingle() {
   return (
     <div className="createSinglePage">
-      <NavBarFlatItems />
+      <NavBarFlatItems CreateSingle />
       <div className="single-create-outer">
         <div className="something-unknown">
           <div className="create-single-headings">
             <h2>Create single</h2>
           </div>
-          <div>
+          <div className="file-data-inputs">
             <div className="file-uploader-outer">
-              <form method="post" encType="multipart/form-data">
-                <div className="">
-                  <strong>Upload Files</strong>
-
-                  <div className="custom-file">
-                    <input
-                      type="file"
-                      name="files[]"
-                      multiple
-                      className="custom-file-input form-control"
-                      id="customFile"
-                    />
-                    <label className="label-choose-file" htmlFor="customFile">
-                      Browse
-                    </label>
-                  </div>
+              <form method="post">
+                <strong>Upload Files</strong>
+                <div className="custom-file">
+                  <input
+                    type="file"
+                    name="files[]"
+                    multiple
+                    className="custom-file-input form-control"
+                    id="customFile"
+                  />
+                  <label className="label-choose-file" htmlFor="customFile">
+                    Browse
+                  </label>
                 </div>
-                <div className="">
-                  <button
-                    type="button"
-                    name="upload"
-                    value="upload"
-                    id="upload"
-                    className="btn btn-block btn-blue"
-                  >
-                    <i className="fa fa-fw fa-upload"></i> Upload
-                  </button>
-                </div>
+                <button
+                  type="button"
+                  name="upload"
+                  value="upload"
+                  className="upload-btn"
+                >
+                  <UploadICon className="fa-upload" /> Upload
+                </button>
               </form>
             </div>
             <div className="item-detail-outer">
               <h2>Item Details</h2>
               <div className="item-name-holder">
                 <div className="form-group">
-                  <span>Name:</span>
+                  <span className="input-lebel">Name:</span>
                   <input
                     type="text"
                     className="form-control form-footer"
-                    id="item-name"
                     placeholder="NFT Name"
                     name="NFT Name"
                   />
@@ -62,7 +56,6 @@ function Createsingle() {
                   <input
                     type="text"
                     className="form-control form-footer"
-                    id="item-description"
                     placeholder="NFT Description"
                     name="NFT Description"
                   />
@@ -73,7 +66,6 @@ function Createsingle() {
                 <input
                   type="text"
                   className="form-control form-footer"
-                  id="item-size"
                   placeholder="NFT Price"
                   name="nft-price"
                 />
@@ -108,64 +100,7 @@ function Createsingle() {
           </a>
         </div>
       </div>
-      <div id="roadmap-outer">
-        <div className="" id="roadmap">
-          <div
-            className="footer-left-outer"
-            data-aos="fade-up"
-            data-aos-duration="1400"
-          >
-            <div className="footer-left-detail">
-              <img src="assets/images/opt-logo3.png" alt="" />
-              <section className="home-newsletter">
-                <div className="input-group">
-                  <input
-                    type="email"
-                    className="form-control form-footer"
-                    placeholder="Enter your email"
-                  />
-                  <span className="">
-                    <button className="input-group-btn" type="submit">
-                      Subscribe
-                    </button>
-                  </span>
-                </div>
-              </section>
-            </div>
-          </div>
-          <div
-            className="footer-center-links"
-            data-aos="fade-up"
-            data-aos-duration="1400"
-          >
-            <h5>COMMUNITY</h5>
-            <ul>
-              <li>
-                <a href="#">Explore</a>
-              </li>
-              <li>
-                <a href="#">My Profile</a>
-              </li>
-              <li>
-                <a href="#">Telegram</a>
-              </li>
-              <li>
-                <a href="#">Twitter</a>
-              </li>
-              <li>
-                <a href="#">Medium</a>
-              </li>
-              <li>
-                <a href="#">Mail</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4" id="contact"></div>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <p>Copyright © 2021 Flatearth. All rights reserved.</p>
-      </div>
+      <Footer />
     </div>
   );
 }

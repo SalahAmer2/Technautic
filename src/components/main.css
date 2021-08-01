@@ -161,8 +161,6 @@ textarea {
   border: none;
 }
 
-
-
 button {
   outline: none !important;
   border: none;
@@ -329,7 +327,6 @@ iframe {
 .login100-form-btn:hover {
   background-color: #1b3815;
 }
-
 
 .alert-validate:before {
   content: attr(data-validate);
@@ -930,11 +927,6 @@ ul.navigation li a img {
   }
 }
 
-.sticky-header .logo a.transparent-logo {
-  display: none !important;
-  transition: all 0.5s;
-}
-
 .sticky-header .logo a.white-logo {
   display: block !important;
   transition: all 0.5s;
@@ -1063,34 +1055,6 @@ ul.navigation li a img {
   }
 }
 
-.footer-outer .footer-left-detail {
-  padding-right: 50px;
-}
-
-.footer-outer .footer-left-detail h5 {
-  font-family: "OpenSans-Bold";
-  font-weight: 800;
-  color: #fff;
-  font-size: 30px;
-  padding-bottom: 22px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-outer .footer-left-detail h5 {
-    font-size: 60px;
-  }
-}
-
-.footer-outer .footer-left-detail p {
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
-  font-size: 15px;
-  color: #999;
-  line-height: 30px;
-  padding-bottom: 132px;
-  text-align: justify;
-}
-
 .footer-left {
   padding-bottom: 40px;
 }
@@ -1193,37 +1157,6 @@ ul.navigation li a img {
   }
 }
 
-.footer-center-links {
-  padding-top: 45px;
-}
-
-.footer-center-links h5 {
-  font-family: "Raleway-Medium";
-  font-weight: 500;
-  color: #fff;
-  font-size: 18px;
-  padding-bottom: 12px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-center-links {
-    padding-top: 95px;
-  }
-}
-
-.footer-center-links ul li a {
-  font-family: "OpenSans-Regular";
-  font-size: 14px;
-  color: #ccc;
-  line-height: 39px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-center-links {
-    padding-left: 144px;
-  }
-}
-
 .footer-right-links {
   padding-top: 45px;
 }
@@ -1254,57 +1187,6 @@ ul.navigation li a img {
   font-size: 14px;
   color: #999;
   line-height: 39px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-right-links {
-    padding-left: 234px;
-  }
-}
-
-.footer-bottom {
-  background-color: #4a0e85 !important;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.footer-bottom p {
-  font-family: "OpenSans-Light";
-  color: #fff;
-  font-size: 16px;
-  padding-bottom: 0;
-}
-
-.footer-icon-nav {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-icon-nav li {
-  display: inline-block;
-  text-align: center;
-}
-
-.footer-icon-nav li a {
-  margin-right: 4px;
-}
-
-.footer-icon-nav li a img {
-  max-width: 34px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-icon-nav li a img {
-    max-width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-icon-nav li a {
-    margin-right: 23px;
-  }
 }
 
 .markeet-navigation {
@@ -1562,7 +1444,6 @@ ul.navigation li a img {
   position: relative;
 }
 
-
 label {
   font-weight: 700;
   font-size: 18px;
@@ -1742,8 +1623,6 @@ label .fa {
 .website-linke {
   padding-bottom: 20px;
 }
-
-
 
 .has-search {
   position: relative;
@@ -3939,31 +3818,6 @@ li .active a {
   }
 }
 
-.footer-left-detail p {
-  font-family: "OpenSans-Regular";
-  font-size: 14px;
-  font-weight: 400;
-  color: #ccc;
-  padding-bottom: 41px;
-  line-height: 27px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-left-detail p {
-    padding-bottom: 21px;
-  }
-}
-
-.footer-left-detail img {
-  margin-bottom: 30px;
-}
-
-@media only screen and (min-width: 1264px) {
-  .footer-left-detail {
-    padding-right: 40px;
-  }
-}
-
 .news-letter-outer {
   background: #f6f6f6;
   padding-top: 41px;
@@ -4093,8 +3947,6 @@ li .active a {
     padding-top: 84px;
   }
 }
-
-
 
 .btn-theme {
   border-radius: 50px;
@@ -4546,27 +4398,6 @@ li .active a {
 
 .progress-right-img img {
   width: 100%;
-}
-
-#roadmap-outer {
-  background-position: 50%;
-  background-repeat: no-repeat;
-  padding-top: 70px;
-  padding-bottom: 40px;
-  background-size: cover;
-}
-
-@media only screen and (min-width: 768px) {
-  #roadmap-outer {
-    padding-bottom: 12px;
-  }
-}
-
-@media only screen and (min-width: 1264px) {
-  #roadmap-outer {
-    padding-top: 45px;
-    padding-bottom: 89px;
-  }
 }
 
 .clients-detail {

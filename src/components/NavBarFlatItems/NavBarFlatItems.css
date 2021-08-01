@@ -1,13 +1,26 @@
-.header-holder {
+.navbar-flat {
   position: fixed;
-  left: 0;
-  padding: 0 2vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100vw;
   z-index: 9;
-  background: #000;
+  background-color: black;
+  width: 100vw;
+}
+.header-holder {
+  left: 0;
+  padding: 0 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 98px;
+}
+.left-logo-nav {
+  margin-right: 850px;
+}
+.nav-resp-size {
+  width: 1263px;
+  margin: 0 auto;
+}
+.header-holder.CreateSingle {
+  /* padding: 0 18%; */
 }
 
 .profile-header {
@@ -31,7 +44,7 @@
   border-radius: 5px;
   font-weight: 700;
   font-size: 15px;
-  margin-left: 52px;
+  width: 146px !important;
   color: #37afe7;
   border: 1px solid #37afe7;
   margin-right: 26px;
