@@ -80,12 +80,12 @@
     padding: 0 15px;
 }
 
-.markeet-header {
+.market-header {
     text-align: center;
     padding-top: 60px;
 }
 
-.markeet-header h1 {
+.market-header h1 {
     text-transform: uppercase;
     font-family: "Segoe UI";
     font-weight: 400;
@@ -95,7 +95,7 @@
     font-size: 40px;
 }
 
-.markeet-header h1 span {
+.market-header h1 span {
     font-family: "Segoe UI";
     font-weight: 700;
     font-size: 35px;

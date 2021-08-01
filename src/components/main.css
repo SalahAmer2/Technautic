@@ -1107,12 +1107,12 @@ ul.navigation li a img {
 }
 
 
-/* .markeet-header {
+/* .market-header {
     text-align: center;
     padding-top: 60px;
 }
 
-.markeet-header h1 {
+.market-header h1 {
     text-transform: uppercase;
     font-family: "Segoe UI";
     font-weight: 400;
@@ -1122,7 +1122,7 @@ ul.navigation li a img {
     font-size: 40px;
 }
 
-.markeet-header h1 span {
+.market-header h1 span {
     font-family: "Segoe UI";
     font-weight: 700;
     font-size: 35px;
@@ -1427,18 +1427,18 @@ ul.navigation li a img {
     }
 }
 
-.markeet-navigation {
+.market-navigation {
     display: block;
     margin: 0;
     padding: 0;
 }
 
-.markeet-navigation li {
+.market-navigation li {
     list-style-type: none;
     display: inline-block;
 }
 
-.markeet-navigation li a {
+.market-navigation li a {
     font-family: "Segoe UI";
     font-weight: 400;
     color: #666;
@@ -1644,7 +1644,7 @@ ul.navigation li a img {
 }
 
 
-/* .markeet-profile-header {
+/* .market-profile-header {
     background: red;
 } */
 
@@ -4349,12 +4349,12 @@ ul.artists li:first-child {
     text-decoration: underline;
 }
 
-.markeet-span {
+.market-span {
     margin-left: 13px;
 }
 
 @media only screen and (min-width: 768px) {
-    .markeet-span {
+    .market-span {
         margin-left: 13px;
     }
 }

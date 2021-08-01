@@ -25,7 +25,7 @@ function Profile() {
             </div>
           </div>
         </div>
-        <div className="welcome-markeet-opner clearfix" id="home">
+        <div className="welcome-market-opener clearfix" id="home">
           <MarketProfileHeader />
           <div className="chain-container">
             <div className="row">

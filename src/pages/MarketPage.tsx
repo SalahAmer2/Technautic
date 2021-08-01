@@ -22,9 +22,9 @@ function Market() {
                         </div>
                     </div>
                 </div>
-                <div className="welcome-markeet-opner clearfix" id="home">
+                <div className="welcome-market-opener clearfix" id="home">
                     <div className="chain-container">
-                        <div className="markeet-header">
+                        <div className="market-header">
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="form-group has-search">
