@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const links: Array<any> = [
   { name: "Explore", to: "/" },
@@ -11,9 +13,13 @@ const links: Array<any> = [
   { name: "Mail", to: "/" },
 ];
 const Footer: React.FC = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1400 });
+  }, []);
+
   return (
     <div className="roadmap-outer">
-      <div className="footer-resp-size">
+      <div data-aos="fade-up" className="footer-resp-size">
         <div className="footer-roadmap">
           <div className="footer-left-detail">
             <img src="assets/images/opt-logo3.png" alt="" />

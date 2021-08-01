@@ -3,6 +3,9 @@ import NavBarFlatItems from "../NavBarFlatItems/NavBarFlatItems";
 import "./TopFlattersPage.styles.css";
 import crown from "../../pages/assets/images/crown-icon.png";
 import star from "../../pages/assets/images/stars.png";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const flatters: Array<any> = [
   {
@@ -105,16 +108,18 @@ const flatters: Array<any> = [
   },
 ];
 const TopFlatters: React.FC = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1400 });
+  }, []);
+
   return (
     <div className="topFlattersPage">
       <NavBarFlatItems />
       <div className="ranked-sellers">
-        <div
-          className="hot-bids-header-top-sellers aos-init aos-animate"
-          data-aos="fade-up"
-          data-aos-duration="1400"
-        >
-          <h2> Top Sellers</h2>
+        <div className="hot-bids-header-top-sellers aos-init aos-animate">
+          <h2 data-aos="fade-up" data-aos-duration="1400">
+            Top Flatters
+          </h2>
         </div>
         <div className="top-sellers-inner">
           {flatters.map((item, index) => (

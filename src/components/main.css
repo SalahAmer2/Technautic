@@ -20,13 +20,6 @@ code {
   line-height: normal;
 }
 
-.svg-inline--fa.fa-search.fa-w-16.form-control-feedback {
-  position: absolute;
-  left: 40px;
-  top: 20px;
-  z-index: 99;
-}
-
 a {
   outline: none !important;
 }
@@ -1102,16 +1095,6 @@ ul.navigation li a img {
   color: #999;
   font-family: "OpenSans-Regular";
   font-weight: 500;
-}
-
-.footer-right .form-control {
-  border-radius: 5px 5px 0 0;
-  padding-top: 30px;
-  padding-bottom: 22px;
-}
-
-.footer-right .form-control:focus {
-  outline: none !important;
 }
 
 .footer-right .text-area-cls {
@@ -3913,27 +3896,6 @@ li .active a {
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 40px;
-}
-
-.home-newsletter .single .form-control {
-  position: relative;
-  height: 57px;
-  margin-top: 60px;
-  background: #fff;
-  border-radius: 30px 30px 30px 30px;
-  padding-left: 25px;
-}
-
-@media only screen and (min-width: 768px) {
-  .home-newsletter .single .form-control {
-    margin-top: 151px;
-  }
-}
-
-@media only screen and (min-width: 1264px) {
-  .home-newsletter .single .form-control {
-    margin-top: 33px;
-  }
 }
 
 @media only screen and (min-width: 1264px) {

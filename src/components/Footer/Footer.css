@@ -1,16 +1,16 @@
 .roadmap-outer {
   width: 100vw;
+  overflow-y: hidden !important;
+
   background: #000;
 }
 .footer-roadmap {
   justify-content: flex-start;
   display: flex;
-  /* padding: 0 19vw; */
-  /* width: 100vw; */
-  /* padding-left: 18%; */
-  /* padding-right: 41.5vw; */
-  /* padding-right: 12vw; */
+  position: relative;
   padding-top: 50px;
+  animation-name: example;
+  animation-duration: 2s;
   padding-bottom: 50px;
 }
 .footer-resp-size {
@@ -29,8 +29,6 @@
 }
 .footer-left-detail {
   margin: auto 0;
-  /* padding-left: 17vh; */
-  /* max-width: 650px; */
 }
 .footer-subscribe:focus {
   border-color: #37afe7;
@@ -40,7 +38,6 @@
   position: absolute;
   border-radius: 8px !important;
   height: 46px;
-  /* left: -115px; */
   right: 2px;
   background-color: #37afe7;
 }
@@ -77,9 +74,18 @@
 }
 .footer-center-links {
   padding-top: 45px;
-  /* margin-right: 7vw; */
 }
 
+/* @keyframes example {
+  from {
+    bottom: -150px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+} */
 @media only screen and (min-width: 1264px) {
   .footer-left-detail p {
     padding-bottom: 21px;
