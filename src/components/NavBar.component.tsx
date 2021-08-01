@@ -20,7 +20,7 @@ const NavBar = () => {
                 <li><Link to="#" className="#">Explore</Link></li>
                 <li><Link to="#" className="#">Activity</Link></li>
                 <li><Link to="#" className="#">Flat Token</Link></li>
-                <li><Link to="#" className="#">Top Flatters</Link></li>
+                <li><Link to="/topflatters" className="#">Top Flatters</Link></li>
                 <li><Link to="#" className="#">Subscribe</Link></li>
                 <li><Link to="#" className="#">Connect Wallet</Link></li>
             </ul>

@@ -1,6 +1,5 @@
 import BurgerIcon from "../BurgerIcon.component";
 import NavBar from "../NavBar.component";
-import { Link } from "react-router-dom";
 import './DetailPage.styles.css'
 
 function Detail() {
@@ -74,24 +73,24 @@ function Detail() {
                 <div className="tabs-outer">
                   <ul className="nav nav-tabs">
                     <li className="active">
-                      <Link id="1" to="#">
+                      <a id="1" href="#">
                         Info
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link id="4" to="#">
+                      <a id="4" href="#">
                         Owners
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link id="3" to="#">
+                      <a id="3" href="#">
                         History
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link id="2" to="#">
+                      <a id="2" href="#">
                         Bids
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -106,7 +105,7 @@ function Detail() {
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
-                            <Link to="#collapseOne">
+                            <a href="#collapseOne">
                             <img src="assets/images/panel-img-con.png" alt="" />
                             <div className="panel-title-detail">
                               <p>Owners</p>
@@ -115,7 +114,7 @@ function Detail() {
                                 <img src="assets/images/copy.png" alt="" />
                               </span>
                             </div>
-                            </Link>
+                            </a>
                           </div>
                         </h4>
                       </div>
@@ -138,7 +137,7 @@ function Detail() {
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
-                            <Link to="#collapseTwo">
+                            <a href="#collapseTwo">
                               <img
                                 src="assets/images/top-sellers-img-thir.png"
                                 alt=""
@@ -150,7 +149,7 @@ function Detail() {
                                   <img src="assets/images/copy.png" alt="" />
                                 </span>
                               </div>
-                            </Link>
+                            </a>
                           </div>
                         </h4>
                       </div>
@@ -170,7 +169,7 @@ function Detail() {
                             data-toggle="collapse"
                             data-parent="#accordion"
                           >
-                            <Link to="#collapseThree">
+                            <a href="#collapseThree">
                               <img src="assets/images/panel-img-con.png" alt="" />
                               <div className="panel-title-detail">
                                 <p>Owners</p>
@@ -179,7 +178,7 @@ function Detail() {
                                   <img src="assets/images/copy.png" alt="" />
                                 </span>
                               </div>
-                            </Link>
+                            </a>
                           </div>
                         </h4>
                       </div>
@@ -200,26 +199,26 @@ function Detail() {
                 <div className="tabContent" id="tabContent2">
                   <div className="tab-2-offers-detail">
                     <p>
-                      <Link to="">@waste</Link> made an offer of 1.2Ξ
+                      <a href="">@waste</a> made an offer of 1.2Ξ
                     </p>
                     <p>
-                      3 HOURS AGO <Link to="">[view tx]</Link>{" "}
-                    </p>
-                  </div>
-                  <div className="tab-2-offers-detail">
-                    <p>
-                      <Link to="">@waste</Link> made an offer of 1.2Ξ
-                    </p>
-                    <p>
-                      3 HOURS AGO <Link to="">[view tx]</Link>{" "}
+                      3 HOURS AGO <a href="">[view tx]</a>{" "}
                     </p>
                   </div>
                   <div className="tab-2-offers-detail">
                     <p>
-                      <Link to="">@waste</Link> made an offer of 1.2Ξ
+                      <a href="">@waste</a> made an offer of 1.2Ξ
                     </p>
                     <p>
-                      3 HOURS AGO <Link to="">[view tx]</Link>{" "}
+                      3 HOURS AGO <a href="">[view tx]</a>{" "}
+                    </p>
+                  </div>
+                  <div className="tab-2-offers-detail">
+                    <p>
+                      <a href="">@waste</a> made an offer of 1.2Ξ
+                    </p>
+                    <p>
+                      3 HOURS AGO <a href="">[view tx]</a>{" "}
                     </p>
                   </div>
                 </div>
@@ -230,7 +229,7 @@ function Detail() {
                       data-toggle="collapse"
                       data-parent="#accordion"
                     >
-                      <Link to="#collapseThree">
+                      <a href="#collapseThree">
                         <img src="assets/images/panel-img-con.png" alt="" />
                         <div className="panel-title-detail">
                           <p>
@@ -238,14 +237,14 @@ function Detail() {
                             L'Avion
                           </p>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                     <div
                       className="panel-title-img "
                       data-toggle="collapse"
                       data-parent="#accordion"
                     >
-                      <Link to="#collapseThree">
+                      <a href="#collapseThree">
                         <img src="assets/images/panel-img-con.png" alt="" />
                         <div className="panel-title-detail">
                           <p>
@@ -253,7 +252,7 @@ function Detail() {
                             L'Avion
                           </p>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
 
@@ -263,7 +262,7 @@ function Detail() {
                       data-toggle="collapse"
                       data-parent="#accordion"
                     >
-                      <Link to="#collapseFour">
+                      <a href="#collapseFour">
                       <img src="assets/images/panel-img-con.png" alt="" />
                       <div className="row">
                         <div className="col-6 col-md-6">
@@ -271,9 +270,9 @@ function Detail() {
                             <p>Owners</p>
                             <span>
                               0xb620..48hsn{" "}
-                              <Link to="#">
+                              <a href="#">
                                 <img src="assets/images/copy.png" alt="" />
-                              </Link>{" "}
+                              </a>{" "}
                             </span>
                           </div>
                         </div>
@@ -284,14 +283,14 @@ function Detail() {
                           </div>
                         </div>
                       </div>
-                      </Link>
+                      </a>
                     </div>
                     <div
                       className="panel-title-img "
                       data-toggle="collapse"
                       data-parent="#accordion"
                     >
-                      <Link to="#collapseFour">
+                      <a href="#collapseFour">
                         <img src="assets/images/panel-img-con.png" alt="" />
                         <div className="row">
                           <div className="col-6 col-md-6">
@@ -299,9 +298,9 @@ function Detail() {
                               <p>Owners</p>
                               <span>
                                 0xb620..48hsn{" "}
-                                <Link to="#">
+                                <a href="#">
                                   <img src="assets/images/copy.png" alt="" />
-                                </Link>
+                                </a>
                               </span>
                             </div>
                           </div>
@@ -312,19 +311,19 @@ function Detail() {
                             </div>
                           </div>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div className="detail-page-actions">
                     <div className="row">
                       <div className="col-md-4 nopadding">
                         <div className="buy-now-btn-outer">
-                          <Link to="#">Buy Now</Link>
+                          <a href="#">Buy Now</a>
                         </div>
                       </div>
                       <div className="col-md-4 nopadding">
                         <div className="buy-now-btn-outer">
-                          <Link to="#">place a bid</Link>
+                          <a href="#">place a bid</a>
                         </div>
                       </div>
                       <div className="col-md-4 nopadding"></div>

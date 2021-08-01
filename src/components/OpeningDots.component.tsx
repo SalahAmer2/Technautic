@@ -15,19 +15,29 @@ const OpeningDots = ({page}) => {
                 <div className="nav-icons-outr">
                     <ul>
                         <li>
-                            <a href="#"> (Page === "Profile") ? Change Price : Buy Now</a>
+                            <a href="#">
+                                {`${(page === "Profile") ? 'Change Price' : 'Buy Now'}`}
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> (Page === "Profile") ? Remove From Sale : Place a bid</a>
+                            <a href="#"> 
+                                {`${(page === "Profile") ? 'Remove From Sale' : 'Place a bid'}`}
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> (Page === "Profile") ? Transfer : Show Artist</a>
+                            <a href="#"> 
+                                {`${(page === "Profile") ? 'Transfer' : 'Show Artist'}`}
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> (Page === "Profile") ? Delete Permanently : View info</a>
+                            <a href="/detail"> 
+                                {`${(page === "Profile") ? 'Delete Permanently' : 'View info'}`}
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> (Page === "Profile") ? Share : Share artist</a>
+                            <a href="#"> 
+                                {`${(page === "Profile") ? 'Share' : 'Share artist'}`}
+                            </a>
                         </li>
                     </ul>
                 </div>
