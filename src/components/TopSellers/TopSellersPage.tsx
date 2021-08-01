@@ -104,7 +104,7 @@ const TopSellers: React.FC = () => {
           {sellers.map((item, index) => (
             <div key={index} className="top-seller-inner-holder">
               <div className="top-seller-img-holder">
-                <div className="seller-number-in-list">
+                <div className={`seller-number-in-list nu${index + 1}`}>
                   <span>{index + 1}</span>
                 </div>
                 <a href="top-sellers.html">
@@ -112,7 +112,9 @@ const TopSellers: React.FC = () => {
                 </a>
                 <a href="top-sellers.html">
                   <div className="top-sellers-detail-holder">
-                    <p className="numb-rank-seller">{item.name}</p>{" "}
+                    <p className={`numb-rank-seller nu${index + 1}`}>
+                      {item.name}
+                    </p>{" "}
                     <span>{item.amount} BNB</span>
                   </div>
                 </a>

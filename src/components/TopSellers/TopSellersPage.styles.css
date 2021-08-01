@@ -75,6 +75,34 @@ body[data-aos-duration="1400"] [data-aos] {
   margin-right: 40px;
 }
 
+.numb-rank-seller.nu1,
+.seller-number-in-list.nu1 {
+  color: gold;
+}
+.numb-rank-seller.nu2,
+.seller-number-in-list.nu2 {
+  color: silver;
+}
+.numb-rank-seller.nu3,
+.seller-number-in-list.nu3 {
+  color: #cd7f32;
+}
+.numb-rank-seller.nu4,
+.numb-rank-seller.nu5,
+.numb-rank-seller.nu6,
+.numb-rank-seller.nu7,
+.numb-rank-seller.nu8,
+.numb-rank-seller.nu9,
+.numb-rank-seller.nu10,
+.seller-number-in-list.nu4,
+.seller-number-in-list.nu5,
+.seller-number-in-list.nu6,
+.seller-number-in-list.nu7,
+.seller-number-in-list.nu8,
+.seller-number-in-list.nu9,
+.seller-number-in-list.nu10 {
+  color: #0000ff;
+}
 @media only screen and (min-width: 1264px) {
   .logo img {
     margin-left: 0;
