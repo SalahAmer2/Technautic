@@ -26,7 +26,7 @@ body[data-aos-duration="1400"] [data-aos] {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* margin-top: 5vh; */
 }
 .logo {
@@ -134,8 +134,5 @@ body[data-aos-duration="1400"] [data-aos] {
 @media only screen and (min-width: 1264px) {
   .logo {
     margin: 15px 0 15px 23%;
-  }
-  .top-sellers-inner {
-    /* width: 100%; */
   }
 }

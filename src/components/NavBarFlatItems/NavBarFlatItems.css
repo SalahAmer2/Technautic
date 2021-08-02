@@ -18,17 +18,10 @@
   align-items: center;
   height: 98px;
 }
-.left-logo-nav {
-  /* margin-right: 850px; */
-}
-.header-btns {
-}
+
 .nav-resp-size {
   width: 1263px;
   margin: 0 auto;
-}
-.header-holder.CreateSingle {
-  /* padding: 0 18%; */
 }
 
 .profile-header {

@@ -42,8 +42,7 @@
 .custom-file-input::placeholder {
   color: black;
 }
-.something-unknown {
-}
+
 .label-choose-file {
   width: fit-content;
   color: black;
@@ -108,10 +107,7 @@ input[type="text"] {
 .form-group {
   margin-top: 5vh;
 }
-.form-group span {
-}
-.input-lebel {
-}
+
 .collectible-preview-profile-holder {
   /* width: 438px; */
   border: 1px solid #37afe7;
