@@ -3,6 +3,8 @@ import "./NavBarFlatItems.css";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import BurgerIcon from "../BurgerIcon.component";
+import NavBar from "../NavBar.component";
 
 interface IProps {
   CreateSingle?: boolean;
@@ -38,18 +40,28 @@ const NavBarFlatItems: React.FC<IProps> = ({ CreateSingle }) => {
               </Link>
             </div>
           </div>
-          <div className="header-btns">
-            <button className={offset > 1 ? "btn-create offet" : "btn-create"}>
-              Create
-            </button>
-            <button
-              className={
-                offset > 1 ? "btn-connect-wallet offet" : "btn-connect-wallet"
-              }
-            >
-              Connect Wallet
-            </button>
-          </div>
+          {window.innerWidth > 1263 ? (
+            <div className="header-btns">
+              <button
+                className={offset > 1 ? "btn-create offet" : "btn-create"}
+              >
+                Create
+              </button>
+              <button
+                className={
+                  offset > 1 ? "btn-connect-wallet offet" : "btn-connect-wallet"
+                }
+              >
+                Connect Wallet
+              </button>
+            </div>
+          ) : (
+            <div>
+              <BurgerIcon />
+              <NavBar />
+              <div id="c-mask-right" className="c-mask"></div>
+            </div>
+          )}
         </div>
       </div>
     </div>

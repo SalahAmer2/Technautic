@@ -1,63 +1,17 @@
 import BurgerIcon from "../BurgerIcon.component";
+import NavBar from "../NavBar.component";
+import './DetailPage.styles.css'
 
 function Detail() {
   return (
     <div className="detailPage">
       <div className="outer">
-        <div className="header-holder">
           <BurgerIcon />
           <div className="custom-container">
             <div className="navigation">
-              <div className="navigation-holder">
-                <ul className="mobile-nav">
-                  <div className="logo-mobile">
-                    <a href="markeet.html" className="white-logo">
-                      <img src="assets/images/profile-icon-img.png" alt="" />
-                    </a>
-                    <p>owner</p>
-                    <span>address goes here</span>
-                  </div>
-                  <li>
-                    <a href="#">Address</a>
-                  </li>
-                  <li>
-                    <a href="profile-page.html">My Profile</a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Explore
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Activity
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Flat Token
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Top Flatters
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="#">
-                      Subscribe
-                    </a>
-                  </li>
-                  <li>
-                    <a href="markeet.html" className="#">
-                      Connect Wallet
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <NavBar />
             </div>
           </div>
-        </div>
 
         <div className="detail-page-outer clearfix" id="home">
           <div className="chain-container clearfix">
@@ -83,9 +37,9 @@ function Detail() {
                         <img
                           src="assets/images/heart-icon.jpg"
                           alt=""
-                          className="nft-likes-icon"
+                          className="nft-likes-icon cursor-pointer"
                         />
-                        <img src="assets/images/heart-icoen.jpg" alt="" />
+                        <img src="assets/images/heart-icoen.jpg" alt="" className='cursor-pointer'/>
                       </div>
                     </div>
 
@@ -148,8 +102,8 @@ function Detail() {
                             className="panel-title-img "
                             data-toggle="collapse"
                             data-parent="#accordion"
-                            ref="#collapseOne"
                           >
+                            <span className="toggleCollapseOne">
                             <img src="assets/images/panel-img-con.png" alt="" />
                             <div className="panel-title-detail">
                               <p>Owners</p>
@@ -158,6 +112,7 @@ function Detail() {
                                 <img src="assets/images/copy.png" alt="" />
                               </span>
                             </div>
+                            </span>
                           </div>
                         </h4>
                       </div>
@@ -176,22 +131,23 @@ function Detail() {
                       <div className="panel-heading">
                         <h4 className="panel-title">
                           <div
-                            className="panel-title-img "
+                            className="panel-title-img"
                             data-toggle="collapse"
                             data-parent="#accordion"
-                            ref="#collapseTwo"
                           >
-                            <img
-                              src="assets/images/top-sellers-img-thir.png"
-                              alt=""
-                            />
-                            <div className="panel-title-detail">
-                              <p>Creater</p>
-                              <span>
-                                Adif Raza{" "}
-                                <img src="assets/images/copy.png" alt="" />
-                              </span>
-                            </div>
+                            <span className="toggleCollapseTwo">
+                              <img
+                                src="assets/images/top-sellers-img-thir.png"
+                                alt=""
+                              />
+                              <div className="panel-title-detail">
+                                <p>Creater</p>
+                                <span>
+                                  Adif Raza{" "}
+                                  <img src="assets/images/copy.png" alt="" />
+                                </span>
+                              </div>
+                            </span>
                           </div>
                         </h4>
                       </div>
@@ -210,16 +166,17 @@ function Detail() {
                             className="panel-title-img "
                             data-toggle="collapse"
                             data-parent="#accordion"
-                            ref="#collapseThree"
                           >
-                            <img src="assets/images/panel-img-con.png" alt="" />
-                            <div className="panel-title-detail">
-                              <p>Owners</p>
-                              <span>
-                                0xb620..48hsn{" "}
-                                <img src="assets/images/copy.png" alt="" />
-                              </span>
-                            </div>
+                            <span className="toggleCollapseThree">
+                              <img src="assets/images/panel-img-con.png" alt="" />
+                              <div className="panel-title-detail">
+                                <p>Owners</p>
+                                <span>
+                                  0xb620..48hsn{" "}
+                                  <img src="assets/images/copy.png" alt="" />
+                                </span>
+                              </div>
+                            </span>
                           </div>
                         </h4>
                       </div>
@@ -236,6 +193,7 @@ function Detail() {
                     </div>
                   </div>
                 </div>
+
                 <div className="tabContent" id="tabContent2">
                   <div className="tab-2-offers-detail">
                     <p>
@@ -263,113 +221,118 @@ function Detail() {
                   </div>
                 </div>
 
-                <div className="tabContent" id="tabContent3">
-                  <div
-                    className="panel-title-img "
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    ref="#collapseThree"
-                  >
-                    <img src="assets/images/panel-img-con.png" alt="" />
-                    <div className="panel-title-detail">
-                      <p>
-                        Put on sale for <strong>0.13 BNB</strong> 3 hours ago by
-                        L'Avion
-                      </p>
+                  <div className="tabContent" id="tabContent3">
+                    <div
+                      className="panel-title-img "
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <a href="#collapseThree">
+                        <img src="assets/images/panel-img-con.png" alt="" />
+                        <div className="panel-title-detail">
+                          <p>
+                            Put on sale for <strong>0.13 BNB</strong> 3 hours ago by
+                            L'Avion
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="panel-title-img "
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <a href="#collapseThree">
+                        <img src="assets/images/panel-img-con.png" alt="" />
+                        <div className="panel-title-detail">
+                          <p>
+                            Put on sale for <strong>0.13 BNB</strong> 3 hours ago by
+                            L'Avion
+                          </p>
+                        </div>
+                      </a>
                     </div>
                   </div>
-                  <div
-                    className="panel-title-img "
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    ref="#collapseThree"
-                  >
-                    <img src="assets/images/panel-img-con.png" alt="" />
-                    <div className="panel-title-detail">
-                      <p>
-                        Put on sale for <strong>0.13 BNB</strong> 3 hours ago by
-                        L'Avion
-                      </p>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="tabContent" id="tabContent4">
-                  <div
-                    className="panel-title-img "
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    ref="#collapseFour"
-                  >
-                    <img src="assets/images/panel-img-con.png" alt="" />
+                  <div className="tabContent" id="tabContent4">
+                    <div
+                      className="panel-title-img "
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <a href="#collapseFour">
+                      <img src="assets/images/panel-img-con.png" alt="" />
+                      <div className="row">
+                        <div className="col-6 col-md-6">
+                          <div className="panel-title-detail">
+                            <p>Owners</p>
+                            <span>
+                              0xb620..48hsn{" "}
+                              <a href="#">
+                                <img src="assets/images/copy.png" alt="" />
+                              </a>{" "}
+                            </span>
+                          </div>
+                        </div>
+                        <div className="col-6 col-md-6">
+                          <div className="panel-title-detail">
+                            <p>Hold</p>
+                            <span>49945</span>
+                          </div>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+                    <div
+                      className="panel-title-img "
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <a href="#collapseFour">
+                        <img src="assets/images/panel-img-con.png" alt="" />
+                        <div className="row">
+                          <div className="col-6 col-md-6">
+                            <div className="panel-title-detail">
+                              <p>Owners</p>
+                              <span>
+                                0xb620..48hsn{" "}
+                                <a href="#">
+                                  <img src="assets/images/copy.png" alt="" />
+                                </a>
+                              </span>
+                            </div>
+                          </div>
+                          <div className="col-6 col-md-6">
+                            <div className="panel-title-detail">
+                              <p>Hold</p>
+                              <span>49945</span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="detail-page-actions">
                     <div className="row">
-                      <div className="col-6 col-md-6">
-                        <div className="panel-title-detail">
-                          <p>Owners</p>
-                          <span>
-                            0xb620..48hsn{" "}
-                            <a href="#">
-                              <img src="assets/images/copy.png" alt="" />
-                            </a>{" "}
-                          </span>
+                      <div className="col-md-4 nopadding">
+                        <div className="buy-now-btn-outer">
+                          <a href="#">Buy Now</a>
                         </div>
                       </div>
-                      <div className="col-6 col-md-6">
-                        <div className="panel-title-detail">
-                          <p>Hold</p>
-                          <span>49945</span>
+                      <div className="col-md-4 nopadding">
+                        <div className="buy-now-btn-outer">
+                          <a href="#">place a bid</a>
                         </div>
                       </div>
+                      <div className="col-md-4 nopadding"></div>
                     </div>
                   </div>
-                  <div
-                    className="panel-title-img "
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    ref="#collapseFour"
-                  >
-                    <img src="assets/images/panel-img-con.png" alt="" />
-                    <div className="row">
-                      <div className="col-6 col-md-6">
-                        <div className="panel-title-detail">
-                          <p>Owners</p>
-                          <span>
-                            0xb620..48hsn{" "}
-                            <a href="#">
-                              <img src="assets/images/copy.png" alt="" />
-                            </a>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-6 col-md-6">
-                        <div className="panel-title-detail">
-                          <p>Hold</p>
-                          <span>49945</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="detail-page-actions">
-                  <div className="row">
-                    <div className="col-md-4 nopadding">
-                      <div className="buy-now-btn-outer">
-                        <a href="#">Buy Now</a>
-                      </div>
-                    </div>
-                    <div className="col-md-4 nopadding">
-                      <div className="buy-now-btn-outer">
-                        <a href="#">place a bid</a>
-                      </div>
-                    </div>
-                    <div className="col-md-4 nopadding"></div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
 
       <div id="c-mask-right" className="c-mask"></div>
     </div>

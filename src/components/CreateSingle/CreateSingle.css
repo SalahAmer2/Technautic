@@ -33,9 +33,14 @@
   /* justify-content: space-between; */
 }
 .custom-file-input {
-  /* width: 682px; */
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
   transition: all 0.2s !important;
-
   height: 50px;
 }
 
@@ -48,42 +53,39 @@
   color: black;
   font-weight: normal;
   position: relative;
-  padding: 13px 15px;
+  padding: 13px 14px;
+  margin-right: 2px !important;
   /* left: 540px; */
   float: right;
-  margin-top: -50px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  margin-top: -53px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
-.form-control {
+.create-single-form-control {
   position: relative;
   margin-top: 10px;
   border-radius: 5px;
   border-color: #dee2e6 !important;
   color: #fff;
-  transition: all 0.2s !important;
 }
-.form-control:focus {
+.create-single-form-control:focus {
   outline: none;
-  background: #fff;
-  color: orange;
+  border-color: #37afe7 !important;
 }
-input[type="file"]::content {
-  width: 20px;
-}
-input[type="text"] {
+
+.create-single-form-control {
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid #37afe7;
+  /* border: 2px solid #37afe7; */
+  border: 2px solid #e5e5e5;
   border-radius: 4px;
   font-size: 16px;
   height: 55px;
   color: #000 !important;
   background-color: #fff;
-  /* background-position: 10px 10px; */
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .input-group-btn {
   position: absolute;
@@ -107,7 +109,10 @@ input[type="text"] {
 .form-group {
   margin-top: 5vh;
 }
-
+.form-group span {
+}
+.input-lebel {
+}
 .collectible-preview-profile-holder {
   /* width: 438px; */
   border: 1px solid #37afe7;

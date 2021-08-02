@@ -128,7 +128,7 @@ const TopFlatters: React.FC = () => {
                 <div className="flatter-crown">
                   {item?.crown === "1" && <img src={crown} />}
                 </div>
-                <div className="">
+                <div className="flatter-stars-container">
                   {item.stars > 0 &&
                     Array(item.stars)
                       .fill(item.stars)

@@ -20,7 +20,7 @@ function Createsingle() {
                     type="file"
                     name="files[]"
                     multiple
-                    className="custom-file-input form-control"
+                    className="custom-file-input create-single-form-control"
                     id="customFile"
                   />
                   <label className="label-choose-file" htmlFor="customFile">
@@ -44,7 +44,7 @@ function Createsingle() {
                   <span className="input-lebel">Name:</span>
                   <input
                     type="text"
-                    className="form-control form-footer"
+                    className="create-single-form-control"
                     placeholder="NFT Name"
                     name="NFT Name"
                   />
@@ -55,7 +55,7 @@ function Createsingle() {
                   <span>Descripton:</span>
                   <input
                     type="text"
-                    className="form-control form-footer"
+                    className="create-single-form-control"
                     placeholder="NFT Description"
                     name="NFT Description"
                   />
@@ -65,7 +65,7 @@ function Createsingle() {
                 <span>Price:</span>
                 <input
                   type="text"
-                  className="form-control form-footer"
+                  className="create-single-form-control"
                   placeholder="NFT Price"
                   name="nft-price"
                 />

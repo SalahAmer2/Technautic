@@ -21,13 +21,11 @@ body[data-aos-duration="1400"] [data-aos] {
 }
 .ranked-sellers {
   max-width: 1264px;
-  /* width: 90%; */
   padding-left: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  /* margin-top: 5vh; */
 }
 .logo {
   width: 257px;
@@ -134,5 +132,9 @@ body[data-aos-duration="1400"] [data-aos] {
 @media only screen and (min-width: 1264px) {
   .logo {
     margin: 15px 0 15px 23%;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .top-sellers-inner {
   }
 }
