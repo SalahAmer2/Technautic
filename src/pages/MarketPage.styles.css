@@ -82,7 +82,7 @@
 
 .market-header {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .market-header h1 {
@@ -112,14 +112,16 @@
     position: relative;
 }
 
-.has-search span {
-    position: absolute;
-    top: 20px;
-    left: 41px;
-    z-index: 8;
+.has-search {
+    border-color: #37afe7
 }
 
-.svg-inline--fa.fa-search.fa-w-16.form-control-feedback {
+.form-control {
+    border-color: #37afe7 !important;
+    margin-bottom: 15px;
+}
+
+.searchBar-icon {
     position: absolute;
     left: 40px;
     top: 20px;
@@ -129,7 +131,6 @@
 .footer-right .form-control {
     border-radius: 5px 5px 0 0;
     padding-top: 30px;
-    padding-bottom: 22px;
 }
 
 .footer-right .form-control:focus {

@@ -86,6 +86,10 @@
     position: relative;
 }
 
+.tab_container input {
+    display: none;
+}
+
 .tab_container .tab-content h3,
 .tab_container .tab-content p {
     -webkit-animation: fadeInScale 0.7s ease-in-out;

@@ -2,6 +2,7 @@ import BurgerIcon from "../components/BurgerIcon.component";
 import MarketLogo from "../components/MarketLogo.component";
 import NavBar from "../components/NavBar.component";
 import ItemCard from "../components/ItemCard.component";
+import { IoSearchSharp } from "react-icons/io5";
 import './MarketPage.styles.css'
 
 function Market() {
@@ -11,7 +12,6 @@ function Market() {
     return (   
         <div className="marketPage">
             <div className="outer">
-                <div className="header-holder">
                     <BurgerIcon />
                     <div className="custom-container">
                         <div className="navigation-holder">
@@ -21,17 +21,12 @@ function Market() {
                             </div>
                         </div>
                     </div>
-                </div>
                 <div className="welcome-market-opener clearfix" id="home">
                     <div className="chain-container">
                         <div className="market-header">
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <div className="form-group has-search">
-                                        <span className="fa fa-search form-control-feedback"></span>
-                                        <input type="text" className="form-control text-center" placeholder="What are you looking for ? "/>
-                                    </div>
-                                </div>
+                            <div className="form-group has-search">
+                                <IoSearchSharp size="20" className='searchBar-icon'/>
+                                <input type="text" className="form-control text-center" placeholder="What are you looking for ? "/>
                             </div>
                         </div>
                     </div>

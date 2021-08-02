@@ -14,7 +14,6 @@ function Profile() {
   return (
     <div className="profilePage">
       <div className="outer">
-        <div className="header-holder">
           <BurgerIcon />
           <div className="custom-container">
             <div className="navigation-holder">
@@ -24,7 +23,6 @@ function Profile() {
               </div>
             </div>
           </div>
-        </div>
         <div className="welcome-market-opener clearfix" id="home">
           <MarketProfileHeader />
           <div className="chain-container">
@@ -35,6 +33,7 @@ function Profile() {
               <div className="col-md-9">
                 <div className="tab_container">
                   <input
+                  className="some-input-field"
                     id="tab1"
                     type="radio"
                     name="tabs"

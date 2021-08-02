@@ -6,14 +6,12 @@ function Detail() {
   return (
     <div className="detailPage">
       <div className="outer">
-        <div className="header-holder">
           <BurgerIcon />
           <div className="custom-container">
             <div className="navigation">
               <NavBar />
             </div>
           </div>
-        </div>
 
         <div className="detail-page-outer clearfix" id="home">
           <div className="chain-container clearfix">
