@@ -85,3 +85,8 @@
   width: 138.34px;
   height: 43px;
 }
+@media only screen and (max-width: 1264px) {
+  .header-btns {
+    display: none !important;
+  }
+}

@@ -5,24 +5,16 @@ import MarketProfileHeader from "../components/MarketProfileHeader.component";
 import ProfileCard from "../components/ProfileCard.component";
 import ItemCard from "../components/ItemCard.component";
 import "../components/main.css";
-import './ProfilePage.styles.css'
+import "./ProfilePage.styles.css";
 
 function Profile() {
-
   const page = "Profile";
 
   return (
     <div className="profilePage">
       <div className="outer">
-          <BurgerIcon />
-          <div className="custom-container">
-            <div className="navigation-holder">
-               <MarketLogo />
-              <div className="navigation">
-                <NavBar />
-              </div>
-            </div>
-          </div>
+        <BurgerIcon />
+        <NavBar />
         <div className="welcome-market-opener clearfix" id="home">
           <MarketProfileHeader />
           <div className="chain-container">
@@ -33,7 +25,7 @@ function Profile() {
               <div className="col-md-9">
                 <div className="tab_container">
                   <input
-                  className="some-input-field"
+                    className="some-input-field"
                     id="tab1"
                     type="radio"
                     name="tabs"
@@ -91,7 +83,6 @@ function Profile() {
             </div>
           </div>
         </div>
-        <div id="c-mask-right" className="c-mask"></div>
       </div>
     </div>
   );
