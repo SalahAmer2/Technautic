@@ -1,0 +1,17 @@
+.detail-card {
+  width: 100%;
+}
+.detail-card div a {
+  font-family: "Segoe UI";
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  padding-right: 13px;
+}
+.title-font.nav-link {
+  margin-right: 1vw;
+  padding-left: 0;
+}
+.title-font.nav-link.active {
+  color: #5990f5;
+}

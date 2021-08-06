@@ -1,0 +1,35 @@
+.detail-opened {
+  transition: all 0.2s;
+  display: block;
+  position: relative;
+  z-index: -1;
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.detail-closed {
+  display: block;
+  position: relative;
+  z-index: -1;
+  margin-top: -50px;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+
+.panel-body-text {
+  width: 100%;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.panel-body-text p {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  background: #e5e5e5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
